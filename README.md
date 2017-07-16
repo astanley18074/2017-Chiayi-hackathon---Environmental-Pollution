@@ -17,15 +17,15 @@
 <p>第三階段. 建立自動化烏賊車辨識系統：降低人力成本</p>
 
 ### 第一階段 數位化平台架構
-架構圖
+
 <img src="./picture/framework1.png" width="600" />
 
 ### 第二階段 數位化平台架構
-架構圖
+
 <img src="./picture/framework2.png" width="600" />
 
 ### 第三階段 數位化平台架構
-架構圖
+
 <img src="./picture/framework3.png" width="600" />
 
 ## 最小可行性 demo 
@@ -47,7 +47,7 @@
 <tr><td>
 <img src="./picture/app0.jpg" width="200"/>
 </td><td>
-<img src="./picture/app1.jpg" width="200"/>
+<img src="./picture/app01.jpg" width="200"/>
 </td><td>
 <img src="./picture/app2.jpg" width="200"/>
 </td><td>
