@@ -32,9 +32,12 @@ import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
+import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.gson.Gson;
+
+import java.util.Arrays;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -45,6 +48,7 @@ public class MainActivity extends AppCompatActivity
     CircleImageView avatar;
     TextView name , plateNum;
     Button b1,b2,b3;
+    boolean isInit = false;
 
     UserData userData = new UserData();
     static MainActivity instance;
@@ -61,9 +65,11 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        instance = this;
         new PermissionTool().getAllPermission(this);
-
+        if(!isInit){
+            init();
+        }
     }
 
     private void findView(View view){
@@ -103,7 +109,7 @@ public class MainActivity extends AppCompatActivity
             public void onDrawerClosed(View view) {
                 super.onDrawerClosed(view);
                 // Do whatever you want here
-                Toast.makeText(MainActivity.this,"CLOSE" , Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this,"CLOSE" , Toast.LENGTH_SHORT).show();
                 //background.setBackground(null);
             }
 
@@ -111,7 +117,7 @@ public class MainActivity extends AppCompatActivity
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
                 // Do whatever you want here
-                Toast.makeText(MainActivity.this,"OPEN" , Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this,"OPEN" , Toast.LENGTH_SHORT).show();
                 //background.setBackground(BlurUtil.drawable_Blur(MainActivity.this ,View2Bitmap(background)));
             }
         };
@@ -132,18 +138,12 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.log_out) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+            LoginManager.getInstance().logOut();
+            Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -198,7 +198,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         }
         else if(v==b3){
-
+            Intent intent = new Intent(MainActivity.this , MapActivity.class);
+            startActivity(intent);
         }
     }
 
@@ -210,14 +211,10 @@ public class MainActivity extends AppCompatActivity
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     // permission was granted, yay! Do the
                     // contacts-related task you need to do.
-                    instance = this;
-                    initDrawer();
-                    String email = this.getIntent().getStringExtra("email");
-                    if (email != null)
-                        storeEmail(email);
-                    else
-                        email = getEmail();
-                    API.getInstance(instance).getUserData(email, this);
+
+                    if(!isInit){
+                        init();
+                    }
 
                 } else {
                     Toast.makeText(this,"請至應用程式設定裡給予指定權限",Toast.LENGTH_SHORT).show();
@@ -231,5 +228,16 @@ public class MainActivity extends AppCompatActivity
             // other 'case' lines to check for other
             // permissions this app might request
         }
+    }
+
+    void init(){
+        isInit = true;
+        initDrawer();
+        String email = this.getIntent().getStringExtra("email");
+        if (email != null)
+            storeEmail(email);
+        else
+            email = getEmail();
+        API.getInstance(instance).getUserData(email, this);
     }
 }

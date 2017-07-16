@@ -17,6 +17,9 @@ public class Report {
     @SerializedName("date")
     String date;
 
+    @SerializedName("plate_num")
+    String plateNum;
+
     public String getPic() {
         return pic;
     }
@@ -39,5 +42,13 @@ public class Report {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getPlateNum() {
+        return plateNum;
+    }
+
+    public void setPlateNum(String plateNum) {
+        this.plateNum = plateNum;
     }
 }

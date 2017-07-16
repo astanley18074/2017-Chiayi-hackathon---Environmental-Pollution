@@ -2,6 +2,7 @@ package com.guagua.reportgo;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -55,9 +56,10 @@ public class ShotActivity extends AppCompatActivity implements View.OnClickListe
     ImageView camera ;
     Button  date ;
     Button send ;
-    EditText address ;
+    EditText address , plateNum;
     Report report = new Report();
     String ChooseDate;
+    ProgressDialog dialog;
 
     public final int SELECT_PICTURE_REQUEST_CODE = 0x01;
     public static Uri outputFileUri;
@@ -79,6 +81,7 @@ public class ShotActivity extends AppCompatActivity implements View.OnClickListe
         date = (Button)findViewById(R.id.date);
         send = (Button)findViewById(R.id.send);
         address = (EditText) findViewById(R.id.address);
+        plateNum = (EditText) findViewById(R.id.plate_num);
         camera.setOnClickListener(this);
         date.setOnClickListener(this);
         send.setOnClickListener(this);
@@ -178,10 +181,14 @@ public class ShotActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void apiDataReturned(String response, String flag) {
-        if(flag.equals(API.FLAG_INSERT_REPORT)){
+        if(flag.equals(API.FLAG_INSERT_REPORT_DATA)){
+            dialog.dismiss();
             if(response.equals("200")){
                 Toast.makeText(ShotActivity.this, "檢舉成功", Toast.LENGTH_SHORT).show();
                 finish();
+            }
+            else{
+                Toast.makeText(ShotActivity.this, "上傳失敗", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -197,6 +204,7 @@ public class ShotActivity extends AppCompatActivity implements View.OnClickListe
         upload.image = image;
 
         new UploadService(this).Execute(upload,ShotActivity.this);
+        dialog = ProgressDialog.show(getInstance(),"上傳中", "請稍後...",true);
     }
 
     @Override
@@ -204,6 +212,8 @@ public class ShotActivity extends AppCompatActivity implements View.OnClickListe
         report.setPic(imageResponse.data.link);
         report.setAddress(address.getText().toString());
         report.setDate(date.getText().toString());
+        report.setPlateNum(plateNum.getText().toString());
+        API.getInstance(getInstance()).insertReportData(report,getInstance());
     }
 
     @Override

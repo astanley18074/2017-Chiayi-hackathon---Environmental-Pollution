@@ -56,8 +56,8 @@ public class API {
     public static final String FLAG_INSERT_USER_DATA = "insertUserData";
     public static final String FLAG_GET_USER_DATA = "getUserData";
     public static final String FLAG_GET_IMAGE_VIA_URL = "getImageViaUrl";
-    public static final String FLAG_INSERT_REPORT = "insertReport";
-    public static final String FLAG_GET_REPORT = "getReport";
+    public static final String FLAG_INSERT_REPORT_DATA = "insertReportData";
+    public static final String FLAG_GET_REPORT_DATA = "getReportData";
 
     public interface Callback{
         void apiDataReturned(String response , String flag);
@@ -130,6 +130,43 @@ public class API {
         requestQueue.add(request);
     }
 
+    public void insertReportData(final Report data , final Callback callback){
+        String url = URL+"/report_go/insertReportData.php";
+        final Response.Listener<String> responseListener;
+        final Response.ErrorListener errorListener;
+        final StringRequest request;
+
+        responseListener = new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                callback.apiDataReturned(response , FLAG_INSERT_REPORT_DATA);
+            }
+        };
+
+        errorListener = new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                callback.apiDataReturned(error.toString(),FLAG_INSERT_REPORT_DATA);
+            }
+        };
+
+        request = new StringRequest(Request.Method.POST, url, responseListener, errorListener){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Gson gson = new Gson();
+
+                String json = gson.toJson(data);
+
+                Map<String, String> param = new HashMap<String, String>();
+                param.put("report_data", json);
+                return param;
+            }
+        };
+
+        requestQueue.add(request);
+    }
+
+
     public void getImageViaUrl(final String url, final ImageView targetView ){
 
         ImageRequest request = new ImageRequest(
@@ -155,8 +192,7 @@ public class API {
         requestQueue.add(request);
     }
 
-    private static void ShowMsgDialog(final Context context, String Msg)
-    {
+    private static void ShowMsgDialog(final Context context, String Msg) {
         AlertDialog.Builder MyAlertDialog = new AlertDialog.Builder(context);
         MyAlertDialog.setTitle("網路錯誤");
         MyAlertDialog.setMessage(Msg);

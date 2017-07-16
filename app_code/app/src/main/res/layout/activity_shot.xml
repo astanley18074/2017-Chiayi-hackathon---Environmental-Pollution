@@ -48,8 +48,8 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:background="#AAFFFFFF"
-            android:text="時間"
             android:src="@mipmap/ic_date_range_black_24dp"
+            android:text="時間"
             android:textColor="#333333"
             android:textSize="17sp" />
 
@@ -88,7 +88,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:background="#AAFFFFFF"
-            android:hint="請輸入地點"
+            android:hint="請輸入車牌"
             android:padding="10dp"
             android:textColor="#333333"
             android:textSize="17sp" />
