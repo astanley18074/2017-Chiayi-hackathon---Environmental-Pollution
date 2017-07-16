@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/652af0717f9c8804b9a8d9551408fa909eec1e76/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_b25e25dff087cd732e14b67504ccfa6789d3028f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/432e3e9cef5626a9d6090aef2297de0569fa3d18/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_67e346f512bd420b1b9d15c97b1550aad053c505.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/a63098233/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-1.9.0_a4c70db3d00359c892fb0a076bc210cd0b673d59/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/aae0fcd2a5a624e552b689534466f37a4566547f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_3af854765088a977769c696b48fdb26339d19ca5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/10e50e760c8387c5a594d90897f12b616c61d38c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_1d2fed5da8be3511302199b9faac80cea86a7e2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/91e8d26cfac60cac23ae1d93500eff2e027b1042/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_337eabcb9438283ac6e71a1f9d55d1afd6eca442.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/f8c59191d31532941be7dee12e78e687cea3a581/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e0e8918eb74e3ee9e82eef6430a4359b2b577d3">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_8786a965467c6e67c65f55595955491f73688468.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_02e9d4cabd3928a1b9fdf4e1503b2ee149d44bfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/7d83efb418b7b91b8d95baa78150cf62a7a0d5d7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_d5a7683794be6955fbd3387d1d51748bf5c21fb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/ba8a9284de4e399f2d8671ff057a88082bc28ea0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_fdd49d9f4016521101d1868f668e83fab8b3f2b6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5efdaef5f108d07355674379b2e3c80230876a89/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/b321cb754ced8304f6726dc3f4ccdb7731674a63/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_33735d4407fd075ef9926905134eb6dd67eb61b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/d70cc55fb569186882d691b0bdfd780e62618905/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_7a6e597d0d78a38ceed4d3dd0e2f4a5011dfd2ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/1ce702bbe2ed1780d68d5d0dc99ee5ed0fc89ecf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_a60ef490e58d0c16661538233eb42b326e57ce74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/2a0b9f09f1e908a3c301cd36e633f65879f2482a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_ee725b124930104d95edc5b928307b1d6dcc06f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_77019c1e0f04f10eabc2d5f89c7829fc44589bc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/library-1.0.19_3a6891c6af10ef22d1432a5aee2dd08d26d09f9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/gson-2.6.2_95ee4223d33022874c1cf7f7308eb82b50e3165e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e1832ee3eb1997479db004bfc93cf575cd5c51bb">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d9401f31678cfbf72f15aa2e7045e83cea2d32d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_e9599bcd80b3de2896c251c0f79d378eecaedef9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/1e6222d0625ac73f8603248bbdd0fe1dd8e10380/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_f48bd9292ef4ca492bf65dbf5349c1c527159fe0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/a63098233/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.4.0_6caa1f35ec870a0df6208151c3eb0638bb70a705/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/b369141bfd59f95160f4b155ec001bae3b465d47/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_c3e2da7f02622ea9294f9084c3003f105d14180e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/e71edcb4bed8fdfa5317e5e74ecbf69669bbfa80/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_e032cf4023a13c10228596dc175b5825771bb268.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/fc552225c8cc5a709bf44f13f704ba4dde9a6bfd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_e37ad2832bf384a8b14ee387e87a1da8b08a06a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/.android/build-cache/ba0d6044d74b7276b7e0f08cd709d14626c6333c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/classes_debc92c6ab2efa387feb000c1e426b94f9144166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/a63098233/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/a63098233/Desktop/ReportGO/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_67c3031b32afc0f8783848fb7313721785dccd77.jar" />
+    </item>
+
+</items>

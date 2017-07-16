@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/motor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.guagua.reportgo.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg4"
+        android:text="紀錄"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="20dp">
+    </Button>
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg4"
+        android:text="上傳"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="20dp">
+    </Button>
+
+    <Button
+        android:id="@+id/notif"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg4"
+        android:text="通知"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="20dp">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+    </LinearLayout>
+</LinearLayout>

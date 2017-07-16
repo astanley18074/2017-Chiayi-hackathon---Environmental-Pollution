@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/motor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="選擇照片"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#AAFFFFFF"
+            android:scaleType="center"
+            android:src="@drawable/ic_menu_camera" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="選擇時間"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#AAFFFFFF"
+            android:text="時間"
+            android:src="@mipmap/ic_date_range_black_24dp"
+            android:textColor="#333333"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="輸入地點"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#AAFFFFFF"
+            android:hint="請輸入地點"
+            android:padding="10dp"
+            android:textColor="#333333"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="輸入車牌"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/plate_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#AAFFFFFF"
+            android:hint="請輸入地點"
+            android:padding="10dp"
+            android:textColor="#333333"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#AAF9BF2C"
+            android:text="檢舉"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
